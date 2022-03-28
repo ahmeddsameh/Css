@@ -1,6 +1,7 @@
-.cont1{
+.head1{
     width: 1200px;
     margin: 0 auto;
+    
 }
 
 .main-header{
@@ -55,17 +56,14 @@
 
 
 .main-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
+    display: grid;
     
 }
 
 .about-me{
 
     background-color: lightgoldenrodyellow;
-    margin-left: 20px;
+    margin-left: 300px;
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -75,6 +73,7 @@
     flex: 0, 0, auto;
     text-align: center;
     align-self: stretch;
+    width: 100%;
 }
 
 * {
@@ -86,6 +85,7 @@
 .footer-container {
     background-color: #212329;
     padding: 4rem 0 4rem 0;
+    width:1200px;
 }
 
 .footer {
@@ -95,14 +95,14 @@
     color: white;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
     margin: 0 auto;
     
    
 }
 
 .footer-heading{
-
+    
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
@@ -158,3 +158,34 @@
     transition: all 0.4s ease-out;
 }
 
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width:1200px
+
+}
+.content1{
+    border: 6px double rgb(114, 61, 124);
+    margin: 10px;
+    padding: 10px;
+    background-color: #63a6c1 ;
+}
+
+.content2{
+    border: 6px double rgb(114, 61, 124);
+    margin:10px;
+    padding: 10px;
+    background-color: #63a6c1 ;
+}
+
+.content3{
+    border: 6px double rgb(114, 61, 124);
+    margin:10px;
+    padding: 10px;
+    background-color: #63a6c1 ;
+}
+
+.img1{
+ 
+}
