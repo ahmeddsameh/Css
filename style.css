@@ -29,11 +29,13 @@
   flex-grow: 3;
   font-size: 25px;
   text-align: flex-start;
+  margin-left: auto;
 }
 
 .Links {
-  font-size: large;
+  font-size: 20px;
   padding: 9px;
+  padding-right: 10px;
   justify-content: space-between;
 }
 
